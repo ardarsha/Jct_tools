@@ -1,8 +1,8 @@
 {
    
-   "name"          : "כלים לסטודנטים של המרכז האקדמי לב",
-   "short_name"    : "Jct tools",
-   "version"       : "4.3.4",
+   "name"          : " Firefox כלים לסטודנטים של המרכז האקדמי לב",
+   "short_name"    : "Jct tools - Firefox Version",
+   "version"       : "1.0.0",
    "description"   : "הודעות וחיבור לאתרים של המרכז האקדמי לב - מכון לב",
    "author"        : "David Aben Athar",
    
@@ -16,8 +16,6 @@
    },
 
    "permissions": [ "activeTab",  "storage","alarms", "notifications",
-         "*://1.1.1.1/*",
-         "*://10.1.1.1/*",
          "*://*.jct.ac.il/*" 
       ],
    "background": {"page": "background.html"},
@@ -27,8 +25,6 @@
       "js": [ "js/lib/jquery.min.js", "js/hide-courses.js" ,"js/loginJCT.js","js/dataAccess.js","js/lib/notify.min.js","js/lib/ouical.min.js" ],
       "matches":
        [ 
-         "*://1.1.1.1/*",
-         "*://10.1.1.1/*",
          "*://*.jct.ac.il/*"
       ],
          "run_at": "document_start"  
@@ -37,9 +33,10 @@
 
    "applications": {
       "gecko": {
-         "id": "abenatha@jct.ac.il",
+         "id": "FirefoxJctToolsByArdarsha",
          "strict_min_version": "48.0",
-         "strict_max_version": "*"
+         "strict_max_version": "*",
+	 "update_url": "https://raw.githubusercontent.com/ardarsha/Jct_tools/master/updates.json"
       }
    },
 
