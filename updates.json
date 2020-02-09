@@ -1,10 +1,11 @@
 {
   "addons": {
-    "FirefoxJctToolsByArdarsha": {
+    "FoxifiedJctToolsByArdarsha": {
       "updates": [
         {
           "version": "1.0.0",
           "update_link": "https://github.com/ardarsha/Jct_tools/releases/download/1.0.0/JctTools_Firefox.xpi"
+	}
       ]
     }
   }
