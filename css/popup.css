@@ -1,4 +1,4 @@
- body{
+body{
     margin: 0 auto;
     height: auto;
     width: auto;
@@ -143,20 +143,22 @@ color:#075E86;
 ******************************/
 
 #styleWithHW{
-	width: 400px;
+	width: 403px;
 
 }
 #styleWithHW a{
 	color:#00f;
 
 }
- #styleWithHW #sliderMenu
- {
-	 background:url("../image/options_img/option_Background.png") repeat-x;
-	 overflow: hidden;
-	 margin: 0 auto;
-	 text-align: center;
- }
+
+#styleWithHW #sliderMenu
+{
+	height: 100px;
+	background:url("../image/options_img/option_Background.png") repeat-x;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+}
 
 #styleWithHW #buttons
 {
@@ -169,7 +171,7 @@ color:#075E86;
 {
 	display: inline-block;
 	width: 80px;
-	height: 80px;
+	height: 90px;
 	overflow: hidden;
 
 }

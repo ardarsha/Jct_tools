@@ -5,6 +5,10 @@
         {
           "version": "1.0.0",
           "update_link": "https://github.com/ardarsha/Jct_tools/releases/download/1.0.0/JctTools_Firefox.xpi"
+	},
+	{
+	  "version": "1.0.1",
+	  "update_link": "https://github.com/ardarsha/Jct_tools/releases/download/1.0.1/JctTools_Firefox.xpi"
 	}
       ]
     }
